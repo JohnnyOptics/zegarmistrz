@@ -1,0 +1,1058 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 49,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Symtec."
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "12px"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-227x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://onet.pl\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Naprawa i renowacja zegarków <br>i zegarów antycznych w Warszawie</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-12\" aria-expanded=\"false\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-t\" aria-expanded=\"false\">WARSZTATY/SZKOLENIA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts4-e\" aria-expanded=\"false\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": "6",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/zegarmistrz-2000x1334.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "ZEGARMISTRZ&nbsp;WARSZAWA",
+                "showText": true,
+                "text": "„ Świata  nie  naprawisz i  raczej  nie  zmienisz -<br>w zmianie zegarka lub jego naprawie  chętnie  Ci   pomożemy” <br> <br><span style=\"font-style: normal;\">                                                                                /z przemyśleń starego zegarmistrza/</span><br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/antyczne-2000x1125.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "ZEGARY ANTYCZNE",
+                "showText": true,
+                "text": "Jesteśmy kolekcjonerami i miłośnikami zegarów, zegarków i starych narzędzi zegarmistrzowskich . Firma specjalizuje się w naprawach i oferuje pełny zakres remontów , przeglądów i renowacji wszystkich typów zegarów, ale przede wszystkim zegarów i zegarków mechanicznych.  Z pietyzmem i odpowiedzialnością troszczymy się o zegary antyczne , zabytkowe oraz te, które stanowią dla naszych klientów  przedmioty pamiątkowe i o szczególnej wartości.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/rysunek-2000x1666.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.8",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "NAPRAWA I KONSERWACJA",
+                "showText": true,
+                "text": "Oferujemy pełną gamę pasków , szkieł sprężyn, teleskopów, wałków naciągowych. Dorabiamy też indywidualnie brakujące części (uzupełniamy braki) w zegarach i zegarkach specjalnych. Podejmujemy się dorabiania wszelkich szkieł, w tym nietypowych (np. szlifowanych). Naprawimy zegary  i zegarki z  tzw. komplikacjami na przykład chronografy, zegary dzwoniące, repetiery, carillony, pozytywki także zegary figuralne i z kukułką, zegary ludowe np. tyrolskie i szwarcwaldzkie.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/baterie1-2000x1127.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "BATERIE , PASKI, TELESKOPY",
+                "showText": true,
+                "text": "Do  współczesnych zegarków elektrycznych, elektronicznych – kwarcowych oferujemy pełny serwis baterii. Posiadamy  baterie do wielu urządzeń współczesnej mikroelektroniki  ( piloty samochodowe i inne, termometry, wagi i tym podobne oraz baterie do zabawek.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/konserwacja-2000x1333.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "KONSERWACJA I CZYSZCZENIE",
+                "showText": true,
+                "text": "Podejmiemy się okresowej konserwacji  zegarów, zegarków ich regulacji oraz czyszczenia  kopert, bransolet (także jubilerskich). Otoczymy  opieką kompleksową kolekcje  zegarów i zegarków <br>(w zbiorach  prywatnych i instytucjach – <b>wystawiamy faktury VAT</b>).",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/wall1-2000x1285.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "ARANŻACJA WNĘTRZA",
+                "showText": true,
+                "text": "Oferta specjalna – zaaranżujemy zegary (zegarki, zegareczki) dla danych przestrzeni mieszkalnej) wyszukamy – pomożemy kupić zegarki i zegarki na indywidualne zamówienie, także jako okolicznościowe prezenty.<br>",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sun1-2000x1500.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "ZEGARY SŁONECZNE",
+                "showText": true,
+                "text": "Potrafimy zaprojektować zegary słoneczne wszelkiego typu (poziome w ogrodzie, pionowe i ukośne na ścianach budynków, przestrzenne)<span style=\"font-style: normal;\">.</span><br>",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sluzymy-2000x877.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "SŁUŻYMY CHĘTNIE...",
+                "showText": true,
+                "text": "Doradztwem i konsultingiem w zakresie <br>zegarów, zegarków i zegarmistrzostwa.<br><br>Zapraszamy do odwiedzenia pracowni zegarmistrzowskich na warszawskiej Białołęce (Ceramiczna 5 lok. 4u) i Pradze Północ (Ząbkowska 39a lok.36).<br>",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-p",
+          "articleLayout": false,
+          "_styles": {
+            "SPAN": {
+              "font-size": "24px"
+            },
+            "H2": {
+              "font-size": "30px",
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            },
+            "I": {
+              "font-size": "30px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-5",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Jaką wartość ma czas?",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-j",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "4",
+            "bgColor": "#fff"
+          },
+          "text": "<p><i>\"Czemu kiedyś zegarki były drogie? Bo stanowiły małe dzieła sztuki, na stworzenie których zegarmistrz poświęcił wiele swojego czasu. Wraz z rozwojem techniki i technologii doszło do nadprodukcji zegarów i zegarków, co spowodowało, że rynek opanowały masowo produkowane czasomierze, które można nabyć nawet za kilkanaście złotych. Tymczasem każdy zegarek jest czasomierzem, a tylko nieliczne czasomierze zasługują na miano zegarka. To także pokazuje stosunek ludzi do czasu – kiedyś uważano go za wielką wartość, dziś jego pojęcie się zdewaluowało. A tymczasem ja cały czas szanuję czas\" </i>– podkreśla pan Jan.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-q",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Szukamy Zegarmistrza!",
+          "meta": " Ten wpis został opublikowany w Nowości firmy dnia Luty 18, 2017"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-11",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<h4>Zatrudnimy zegarmistrza lub kandydata do zawodu zegarmistrza-serwisanta.</h4>",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            },
+            "H4": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-z",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "4",
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>Wymagana jest:</b></p><p><b><br></b></p><ul><li>&nbsp; &nbsp; pasja do zegarów i zegarmistrzostwa</li><li>&nbsp; &nbsp; zdolności manualne do pracy z małymi przedmiotami</li><li>&nbsp; &nbsp; brak schorzeń neurologicznych – drżenie rąk</li><li>&nbsp; &nbsp; umiejętność skupienia się dłuższy czas nad jedną czynnością</li></ul>",
+          "text2": "<p><b>Oferujemy:</b></p><p><b><br></b></p><ul><li>&nbsp; &nbsp; przyuczenie do zawodu</li><li>&nbsp; &nbsp; praca w wymiarze 5-6h dziennie</li><li>&nbsp; &nbsp; praca 5 dni w tygodniu</li><li>&nbsp; &nbsp; praca w pracowni na ul. Ząbkowskiej w Warszawie.</li></ul>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Szkolenie zegarmistrzowskie&nbsp;",
+          "meta": "Ten wpis został opublikowany w Nowości firmy dnia 9.04.2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-v",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text1": "<p>W dniu 9.04.2016 r odbyło się w kawiarni Zegarmistrzowska, na Sadybie przy ulicy Muszyńskiej 23 mieszczącej się na warszawskiej Sadybie, szkolenie, które poprowadził Jan Szymański</p><p><br></p><p>Szkolenie dotyczyło zegarów. Są to zegary znacznie większe od tych które nosimy na nadgarstkach. Celem warsztatów było objaśnienie budowy i działania na przykładzie oryginalnych mechanizmów zegarowych. Były pokazane mechanizmy zegarowe do obejrzenia z możliwością rozebrania oraz narzędzia. Spotkanie odbywało się w</p>",
+          "text2": "<p>ramach działania Klubu Miłośników Zegarów i Zegarków. Po spotkaniu odbyła się interesująca dyskusja.</p><p><br></p><p>Link do relacji ze spotkania http://zegarkiclub.pl/forum/topic/132694-warsztaty-2-2016/</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kawiarnię Zegarmistrzowską polecamy. Klimat dla miłośników zegarów i zegarków szczególny.</b></span><br></p><p><br></p><p>A oto zdjęcia z tego wydarzenia:.</p>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "4",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/szkolenie-cd-2000x3555-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/szkolenie-cd-2000x3555.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/wykadowca-2000x3555-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wykadowca-2000x3555.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kursanci-2000x3555-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kursanci-2000x3555.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/uczestnicy1-2000x3555-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/uczestnicy1-2000x3555.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/szykujemy-si-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/szykujemy-si-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/konsultacje-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/konsultacje-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/eugeniusz-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/eugeniusz-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/do-zobaczenia-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/do-zobaczenia-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-s",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-w",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<h4><span style=\"font-weight: normal;\">Zapraszamy do naszej pracowni na Tarchominie (Warszawa):</span></h4>",
+          "_styles": {
+            "H4": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "googleMap": {
+              "address": "Ceramiczna 5, Warszawa",
+              "placeId": "ChIJv2Y8KqTJHkcRrbD4ZbNP6wk",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-x",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<p>Zapraszamy do naszej pracowni na Pradze (Warszawa):</p>",
+          "_styles": {
+            "P": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-i",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "googleMap": {
+              "address": "Ząbkowska 37, warszawa",
+              "placeId": "ChIJuTj8ljfMHkcRZTIeIsqzsQY",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "<p>– Jan Szymański to zegarmistrz starej daty, a jednocześnie pasjonat i kolekcjoner zegarków, zwłaszcza tych najstarszych. Byłem u niego dzisiaj ze swoimi zegarkami i znowu zeszła godzina na rozmowach i oglądaniu kolekcji wspaniałych okazów. Warto się wybrać osobiście. Wizyta potrwa trochę dłużej niż „wszedł, odebrał i wyszedł”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Abanoub S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>&nbsp;I recommend !!&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">A great professional and enthusiast profession.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">He has vast experience in repairing watches.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Such watchmakers have really getting harder to find.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">&nbsp;Polecam!!&nbsp;</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">*****</span></p><p>Świetny fachowiec, i fascynat zawodu.&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Posiada olbrzymie doświadczenie w naprawie zegarków.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Takich zegarmistrzów już naprawdę coraz trudniej znaleźć.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Dominik Eymontt",
+              "authorBio": "Klient"
+            },
+            {
+              "text": "<p>– Jan Szymański to zegarmistrz starej daty, a jednocześnie pasjonat i kolekcjoner zegarków, zwłaszcza tych najstarszych. Byłem u niego dzisiaj ze swoimi zegarkami i znowu zeszła godzina na rozmowach i oglądaniu kolekcji wspaniałych okazów. Warto się wybrać osobiście. Wizyta potrwa trochę dłużej niż „wszedł, odebrał i wyszedł”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Jhollman C.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials1-8",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "CO INNI MÓWIĄ O NAS?",
+          "subtitle": "Wypowiedzi zebrane na forach internetowych dotyczących zegarów:"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-12",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "CENNIK USŁUG",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-13",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<h4><span style=\"font-weight: normal;\">Informujemy, że nie prowadzimy wyceny, doradztwa, oceny stanu i nie podajemy kosztów naprawy </span>bez obejrzenia zegarka<span style=\"font-weight: normal;\">. Same zdjęcia nigdy  nie odzwierciedlają realnego jego stanu. Tak jak lekarz nie leczy na odległość tak zegarmistrz może podjąć się naprawy dopiero gdy zobaczy zegarek.</span></h4><h4>Wcześniejszy kontakt telefoniczny znacznie ułatwi współpracę.</h4>",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-15",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Cena każdej usługi kalkulowana jest na podstawie wyceny godzin pracy </p><p>zegarmistrza przeznaczonych na naprawę powierzonego zegarka.</p><p> </p><p><br></p><p>Aktualna cena 1 roboczogodziny wynosi 80 zł.</p><p><br></p><p>Cena usługi zawsze zależy od stanu zegarka, marki, dostępności części zamiennych oraz jego stopnia zużycia.</p>",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "20px",
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-16",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><b>Uwaga!</b> Naprawy niestandardowe wyceniamy w oparciu o kryterium pracochłonności i czasu zużytego na naprawę&nbsp;</blockquote><blockquote><b>Uwaga! </b>Ekspertyza i wycena kosztu naprawy zegar(k)a w naszej pracowni jest bezpłatna.</blockquote><blockquote><p><b>Uwaga!</b> Może się zdarzyć, że wycena (koszt) naprawy przekracza wartość materialną – księgową powierzonego przedmiotu. </p><p>O takiej sytuacji klient jest informowany przed podjęciem decyzji o ewentualnej naprawie.</p></blockquote><blockquote><b>Uwaga</b>! Na życzenie klienta możemy dostarczyć szczegółowy kosztorys naprawy (rekonstrukcji- odbudowy) zegara/zegarka&nbsp;</blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-18",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<h4>Wymiana baterii</h4>",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-17",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Wymieniane baterie pochodzą z firm: Energizer, Renata, Maxell, Sony, Seizaken. Wszystkie one pochodzą z legalnych źródeł (ma to znaczenie dla ich trwałości, gdyż dostarczane są wg. określonej procedury). Każda nowa bateria przez nas wymieniona ma roczną gwarancję oraz jest datowana i sygnowana.</b></span><br></p><p><br></p><p><b>Uwaga! </b>Zdarza się, że stan zegarka zmienia się wskutek uszkodzeń spowodowanych „wylaniem się” baterii, która nie była wymieniona na czas. Wówczas koszt wymiany baterii będzie powiększony o koszt oczyszczenia zegarka przed założeniem nowej.</p><p>Cennik wymiany baterii zależy między innymi od rodzaju baterii (tańsze i droższe) oraz komplikacji w budowie koperty (np. wodoszczelna, złota) a opcja wyboru odpowiedniej baterii każdorazowo proponowana jest  klientowi do akceptacji.</p><p><br></p><p><b>Zakres cen wymiany baterii waha się od:  5,00 zł (tanie baterie alkaliczne) do 60,00 zł (nietypowe baterie srebrowe czy litowe).</b></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<h4>Naprawa i wymiana pasków oraz bransolet</h4>",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-19",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Skracanie bransolet</b> – cena zwykle waha się od 10,00 zł do 40,00 zł. i zależy od formy bransolety ( rozkręcane, rozkuwane).</p><p>Wymiana teleskopów – typowe 5,00 – 10,00 zł za sztukę. Cena wymiany teleskopów specjalnych ( cienkich, grubych, półokrągłych) <br>ustalana jest indywidualnie.</p><p><br></p><p><b>Wymiana, zakładanie nowych pasków</b> – ceny tych usług nie przekraczają od kilku do kilkunastu złotych. Jeśli zegarek był naprawiany gruntownie w pracowni, wymiana gratis. Możliwa jest wymiana pasków droższych, nietypowych lub dedykowanych, które dostarczy klient lub zamówi firma. Z uwagi na charakter pracowni (nie jest sklepem) w pracowniach posiadamy niewielki wybór pasków w podstawowych wymiarach w cenach od 15,00 do 80,00 zł.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<h4>Czyszczenie mechanizmu /wymiana</h4>",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1b",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Kompletny zakres prac do wykonania w zakresie czyszczenia lub wymiany mechanizmu możemy przekazać zarówno osobiście jak i telefonicznie i ustalić cenę usługi bez konieczności ponownej wizyty w pracowni, o ile klient zdecyduje się na pozostawienie zegarka do weryfikacji w firmie, (za pokwitowaniem)</b></p><p><br></p><p>Podobnie taki zakres prac – koniecznych lub fakultatywnych, przedstawiamy klientom przekazującym zegarki drogą pocztową, kurierem.</p><p>Wykonujemy prace zaakceptowane przez klienta i z ustaloną ceną. Jeśli okaże się, że cena może ulec zmianie z uwagi na nieprzewidziane okoliczności, każdorazowo omawiamy tę sprawę z klientem.</p><p><br></p><p>W przypadku wielu zegarków elektronicznych (elektrycznych, kwarcowych, bateryjnych) jest wymiana całego modułu (elektrycznego, mechanicznego, bądź też całego mechanizmu).  Koszt modułu zależny jest od jego typu i dostępności na rynku a także kursu dnia – przelicznika walutowego.&nbsp;</p><p><br></p><p><b>Przykładowe ceny modułów dla zegarków kwarcowych:&nbsp;</b></p><ul><li>– mechanizm podstawowy japoński od 15,00 do 40,00 zł,</li><li>– mechanizm podstawowy „swiss made” od 40,00 do 100,00 zł</li><li>– mechanizmy kwarcowe z komplikacjami dat (różne wskazania kalendarza ) od 80,00 – 170,00 zł</li><li>– moduły zegarków kwarcowych z chronografem od 120,00 – 230,00 zł (japońskie)&nbsp;</li><li>– moduły zegarków z chronografem i innymi komplikacjami „swiss made” (np. Ronda, Harley) od 140,00 – 300,00 zł</li><li>– moduły „swiss made” (ETA) dla zegarków wysokiej półki cenowej  od 300,00 – 800,00 zł</li><li><br></li></ul><p>Posiadamy zbiór części i mechanizmów do zegarów starych i antycznych z „drugiego obiegu”, </p><p>jak również jesteśmy w stanie spróbować je sprowadzić.</p>",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-9",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#262222",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-e",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<strong>Adres:</strong><br><b>Ceramiczna 5</b>, 01-001 Warszawa, Poland<br><br><b>Ząbkowska 37</b>, Warszawa, Poland<br><br><br>\n<strong>Kontakt:</strong><br>\nEmail: janesz@o2.pl<br>\nPhone:( +48) 882-58-53-47<br><br>",
+          "text2": "<ul class=\"mbr-contacts__list\"></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "an.icon.pictures@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Napisz do nas!</a>",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Site Maker Title",
+        "meta_descr": "Site Maker Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "12px"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-227x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://onet.pl\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Naprawa i renowacja zegarków <br>i zegarów antycznych w Warszawie</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-12\" aria-expanded=\"false\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-t\" aria-expanded=\"false\">WARSZTATY/SZKOLENIA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts4-e\" aria-expanded=\"false\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-1",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Symtec."
+        }
+      ]
+    }
+  }
+}
